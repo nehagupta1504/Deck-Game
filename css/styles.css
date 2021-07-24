@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: green;
+  color: white;
+}
+
+.card-holder-class {
+  display: flex;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  position: absolute;
+  bottom: 5%;
+  width: 100%;
+  justify-content: center;
+}
+.cards-div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  position: relative;
+  min-height: 100vh;
+  height: 100vh !important;
+  margin-top: 20px;
+}
+.not-visible {
+  display: none;
+}
+.restart {
+  width: 150px;
+  height: 50px;
+  border-radius: 5px;
+  border: 2px solid gray;
+  color: white;
+  font-weight: 800;
+  font-size: larger;
+  background-color: rgb(37, 37, 138);
+  font-family: sans-serif;
+}
+
+.Win {
+  font-size: 30px;
+  color: green;
+}
+.restart-div {
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.exit-img {
+  width: 40px;
+  display: block;
+}
+.exit-a {
+  display: flex;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+#exit-restart-div {
+  display: flex;
+}
+.left {
+  width: 50%;
+}
+.right {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 15px;
+  margin-top: 20px;
+  font-size: larger;
+  font-weight: 800;
+  color: white;
+}

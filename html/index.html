@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Card Game</title>
+    <link rel="stylesheet" href="../css/styles.css" />
+  </head>
+  <body>
+    <div id="exit-restart-div">
+      <div class="left">
+        <span>Exit</span>
+        <a href="../main.html" class="exit-a"
+          ><img
+            src="../assets/exit-removebg-preview.png"
+            alt=""
+            class="exit-img"
+        /></a>
+      </div>
+      <div class="right" id="timer">02:59 seconds</div>
+    </div>
+    <div class="container">
+      <div id="app" class="cards-div"></div>
+
+      <div id="card-holder" class="card-holder-class"></div>
+
+      <div class="restart-div">
+        <p id="win" class="not-visible Win"></p>
+        <button id="restart-button" class="not-visible restart">Restart</button>
+      </div>
+    </div>
+    <script src="../js/index.js"></script>
+  </body>
+</html>
